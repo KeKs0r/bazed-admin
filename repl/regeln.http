@@ -1,0 +1,14 @@
+http://localhost:3000
+
+###
+
+POST http://localhost:3000/spawn
+Content-Type: application/json 
+
+{
+    "type": "bazed-admin/HelloAgent",
+    "options": {
+        "person": "Joe"
+    }
+}
+

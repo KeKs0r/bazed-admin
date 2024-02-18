@@ -1,0 +1,22 @@
+{
+  "name": "bazed-admin",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "description": "Made with bazed.ai",
+  "scripts": {
+    "dev": "bazed run",
+    "build": "tsc",
+    "deploy": "bazed deploy",
+    "spawn": "bazed spawn",
+    "lint": "eslint --ext .ts src"
+  },
+  "dependencies": {
+    "@bazed-ai/bazed-af": "^0.0.9"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "eslint": "^8.56.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
